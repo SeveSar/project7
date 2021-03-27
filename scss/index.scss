@@ -1,0 +1,22 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+
+
+button {
+    &:active, &:focus{
+        outline: none !important;
+    }
+    &::-moz-focus-inner{
+        border: 0 !important;
+    }
+}
+
+@import "general";
+@import 'media';
+
